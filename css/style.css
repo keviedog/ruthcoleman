@@ -55,8 +55,9 @@ body {
 /* the grainy orange arch */
 .arch {
   position: absolute;
-  right: -6%;
-  top: 50%;
+  right: 0;
+  top: 0;
+  z-index:0;
   transform: translateY(-50%);
   width: 62%;
   height: 150%;
@@ -69,7 +70,7 @@ body {
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   max-width: 620px;
 }
 
