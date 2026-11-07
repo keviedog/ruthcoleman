@@ -51,6 +51,8 @@ body {
   padding: 80px 48px;
   overflow: hidden;
 }
+.link{
+  font-size:20px;
 
 /* the grainy orange arch */
 .arch {
