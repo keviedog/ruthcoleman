@@ -55,9 +55,9 @@ body {
 /* the grainy orange arch */
 .arch {
   position: absolute;
-  right: 0;
-  top: 0;
-  z-index:0;
+  right: -2;
+  top: 6;
+  z-index:-1;
   transform: translateY(-50%);
   width: 62%;
   height: 150%;
