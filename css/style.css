@@ -391,7 +391,7 @@ footer {
   margin-bottom: 32px;
 }
 .about-text p {
-  font-size: clamp(14px, 1.6vw, 20px);
+  font-size:35px;
   line-height: 1.55;
   max-width: 46ch;
 }
