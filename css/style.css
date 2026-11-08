@@ -829,4 +829,77 @@ h2{
   }
   .hero-img { max-width: 420px; }
 }
+/* ===== ALIGN PAGE — scoped theme (only affects pages with class="align-page" on <body>) ===== */
+.align-page {
+  background: #faf6f0;      /* warm cream — replaces the pink */
+  color: #0A0A0A;
+}
+
+/* Calm the marquee */
+.align-page .marquee {
+  background: #f7d9e0;      /* blush instead of black */
+}
+.align-page .marquee span {
+  color: #b06a7a;           /* muted pink text */
+  font-size: clamp(28px, 4vw, 48px);  /* smaller, gentler */
+}
+
+/* Soften the hero and main sections */
+.align-page .project-hero,
+.align-page .project-cover,
+.align-page .hero {
+  background: #faf6f0;
+}
+
+/* Rounded, soft moodboard tiles */
+.align-page .mood-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding: 20px;
+  background: #fffdf9;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+.align-page .mood-grid img,
+.align-page .mood-grid .tile,
+.align-page .mood-grid .swatch {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #f0e8e0;
+}
+
+/* Lighter number labels */
+.align-page .stage-num,
+.align-page .stage-card span,
+.align-page .project-meta strong {
+  color: #b06a7a;           /* soft pink instead of the red #c8102e */
+}
+
+/* Rounded cards instead of the sharp black border */
+.align-page .stage-card {
+  border: 1px solid #e8ddd4;
+  border-radius: 16px;
+  background: #fffdf9;
+}
+
+/* Softer stage-row images */
+.align-page .stage-row-img img {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* Callout in blush */
+.align-page .callout {
+  background: #f7d9e0;
+  border-radius: 16px;
+}
+
+/* Mobile: moodboard drops to 2 columns */
+@media (max-width: 760px) {
+  .align-page .mood-grid { grid-template-columns: repeat(2, 1fr); }
+}
 
