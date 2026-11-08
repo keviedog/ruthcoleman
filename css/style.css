@@ -846,10 +846,12 @@ h2{
 
 /* Soften the hero and main sections */
 .align-page .project-hero,
-.align-page .project-cover,
-.align-page .hero {
+.align-page .project-body,
+.align-page .hero,
+.align-page section {
   background: #faf6f0;
 }
+
 
 /* Rounded, soft moodboard tiles */
 .align-page .mood-grid {
