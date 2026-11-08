@@ -82,7 +82,7 @@ body {
 }
 
 .hero p {
-  font-size: clamp(10px, 2vw, 15px);
+  font-size: clamp(15px, 2vw, 15px);
   margin-top: 34px;
 }
 
