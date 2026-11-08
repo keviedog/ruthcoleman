@@ -643,7 +643,9 @@ h2{
 
 /* Six-up card grid for the later stages */
 .stage-grid--three { grid-template-columns: repeat(3, 1fr); }
-
+.end-page{
+  padding-left:25%;
+}
 @media (max-width: 760px) {
   .stage-row { grid-template-columns: 1fr; gap: 20px; margin-bottom: 40px; }
   .stage-row.reverse .stage-row-text,
